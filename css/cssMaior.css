@@ -14,7 +14,7 @@ body{
 
 input{
     border-radius: 5px;
-    border-style: none;
+    border-style: 1px black solid;
     width: 180px;
     height: 25px;
 }
@@ -22,9 +22,9 @@ input{
 button {
     margin-left: 10px;
     height: 28px;
-    width: 45px;
+    text-align: center;
     background-color: whitesmoke;
-    border-style: none;
+    border: 1px black solid;
     border-radius: 5px;
 }
 
@@ -34,7 +34,6 @@ button {
     border-color: rgb(53, 184, 53);
     border-width: 3px;
     margin-top: 10px;
-    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center
